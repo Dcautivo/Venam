@@ -1,0 +1,67 @@
+ul.venam-remove-filter li {
+    display: inline-block;
+    margin-right: 15px;
+}
+ul.venam-remove-filter li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul.venam-remove-filter li a span.remove-filter {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    background-color: var(--theme-black);
+    margin-right: 5px;
+    border-radius: 50px;
+}
+ul.venam-remove-filter li a.clear-all span.remove-filter {
+    background-color: var(--theme-primary);
+}
+.venam-remove-filter li a span.remove-filter:before,
+.venam-remove-filter li a span.remove-filter:after {
+    content: "";
+    width: 9px;
+    height: 2px;
+    position: absolute;
+    left: 3px;
+    top: 7px;
+    display: inline-block;
+    background-color: #fff;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.venam-remove-filter li a {
+    position: relative;
+	color: var(--theme-black);
+    letter-spacing: 0.2px;
+    font-size: 14px;
+    font-weight: 500;
+	cursor: pointer;
+}
+
+.venam-remove-filter li a span.remove-filter:before {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.venam-remove-filter li a span.remove-filter:after {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+}
+
+.venam-remove-filter li a:hover span.remove-filter:before,
+.venam-remove-filter li a:hover span.remove-filter:after {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+}
+
+.filters-container .nav-tabs.nav-tab-box {
+    display: inline-block;
+}

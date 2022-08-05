@@ -1,0 +1,256 @@
+.shop-widget-title .title {
+	text-transform: uppercase;
+	font-size: 14.5px;
+	margin: 0;
+	color: var(--theme-black);
+	font-style: normal;
+	line-height: 1.8;
+	font-weight: 700;
+}
+
+.woocommerce ul.cart_list li a,
+.woocommerce ul.product_list_widget li a {
+	font-size: 16px;
+	color: var(--theme-black);
+	font-weight: 500;
+}
+
+.woocommerce.nt-sidebar-inner-widget span.reviewer {
+	font-size: 14px;
+}
+
+.woocommerce ul.product_list_widget li ins,
+.woocommerce ul.product_list_widget li>.amount bdi {
+	color: var(--theme-primary);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1;
+	text-decoration: none;
+}
+
+.woocommerce ul.product_list_widget li del {
+	/* font-size: 12px; */
+	line-height: 1;
+}
+
+.woocommerce.nt-sidebar-inner-widget .star-rating,
+.woocommerce.nt-sidebar-inner-widget .star-rating::before,
+.woocommerce.nt-sidebar-inner-widget .star-rating span::before {
+	font-size: 10px;
+}
+
+.woocommerce.nt-sidebar-inner-widget .star-rating {
+	width: 54px;
+}
+
+.price_slider_wrapper {
+	padding-right: 15px;
+}
+
+.woocommerce .widget_price_filter .price_slider_wrapper .ui-widget-content {
+	background: #ebebeb none repeat scroll 0 0;
+	border: medium none;
+	border-radius: 0;
+	height: 6px;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range {
+	background: var(--theme-gray-background);
+	border-radius: 0;
+}
+
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle {
+	height: 14px;
+	width: 14px;
+	top: 0;
+	margin-top: -4px;
+	background: #fff;
+	border-radius: 100%;
+	margin-left: 0;
+	background-color: var(--theme-gray);
+}
+
+.woocommerce .widget_price_filter .price_slider_amount {
+	text-align: right;
+	line-height: 2;
+	font-size: 12px;
+	font-weight: 500;
+	color: var(--theme-black-soft);
+	text-transform: uppercase;
+	margin: 25px 0 0 0;
+}
+
+#nt-sidebar form .price_slider_amount .button {
+	padding: 8px 15px;
+	font-size: 12px;
+	border-radius: 4px !important;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.widget-list-span {
+	top: auto;
+	left: auto;
+	width: 25px;
+	height: 25px;
+	border-radius: 6px;
+	font-size: 12px;
+	font-weight: 400;
+	background: var(--theme-gray-background);
+	text-align: center;
+	color: var(--theme-black-soft);
+}
+
+.woocommerce ul.cart_list li img,
+.woocommerce ul.product_list_widget li img {
+	width: 70px;
+}
+
+.woocommerce .woocommerce-widget-layered-nav-list .woocommerce-widget-layered-nav-list__item a {
+	padding: 0;
+	padding-left: 0px;
+	font-size: 14px;
+	color: var(--theme-black);
+	position: relative;
+}
+
+.woocommerce .woocommerce-widget-layered-nav-list .woocommerce-widget-layered-nav-list__item.chosen a::before {
+    color:var(--theme-primary);
+}
+
+#nt-sidebar form button:hover {
+	background: var(--theme-primary);
+	color: #fff;
+}
+
+/* wpc-filters */
+.widget-area ul.wpc-filters-ul-list,
+.wpc-filters-widget-main-wrapper ul.wpc-filters-ul-list {
+	padding: 0;
+}
+
+.widget-area li.wpc-term-item label,
+.wpc-filters-widget-main-wrapper li.wpc-term-item label {
+	justify-content: space-between;
+}
+
+.widget-area .wpc-term-item-content-wrapper,
+.wpc-term-item-content-wrapper,
+body .wpc-filters-widget-main-wrapper .wpc-term-item-content-wrapper {
+	padding-right: 0;
+}
+
+.nt-sidebar-inner-widget.widget_wpc_filters_widget .wpc-filters-section:last-child {
+	margin-bottom: 0px;
+}
+
+nav.woocommerce-MyAccount-navigation>ul>li {
+    padding: 5px 0;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul li a {
+    color: #252525;
+}
+
+.price_label {
+    margin-top: 3px;
+}
+.venam-widget-product-categories a label,
+.venam-product-status a label{
+    margin: 0;
+    margin-left: 7px;
+    color: #252525;
+    font-size: 13px;
+}
+.site-scroll li a {
+    display: flex;
+    align-items: center;
+}
+.nt-sidebar-inner .venam-choosen-filters {
+    display: none;
+}
+body:not(.venam-ajax-shop) #nt-sidebar .nt-sidebar-inner .venam-choosen-filters {
+    display: none;
+}
+
+@media(max-width:1024px){
+    body.venam-ajax-shop #nt-sidebar .nt-sidebar-inner .venam-choosen-filters {
+        display: block;
+    }
+    #nt-sidebar .nt-sidebar-inner .venam-choosen-filters {
+        padding: 5px 10px;
+        border: none;
+        width: 100%;
+        margin: 0 0 15px 0px;
+        background: #fff;
+        z-index: 1;
+    }
+    #nt-sidebar .nt-sidebar-inner.scroll-start .venam-choosen-filters {
+        position: absolute;
+        top: 40px;
+        margin-top: 0;
+        left: 0;
+    }
+    #nt-sidebar .woocommerce-result-count {
+        float: none;
+        margin: 0;
+        width: 100%;
+    }
+    #nt-sidebar ul.venam-remove-filter {
+        margin-bottom: 5px;
+    }
+    .woocommerce #nt-sidebar .woocommerce-info {
+        margin-top: 5px;
+        text-align: left;
+        padding: 5px 10px;
+    }
+    .woocommerce #nt-sidebar .woocommerce-info:before {
+        display: none;
+    }
+	.woocommerce #nt-sidebar .nt-sidebar-inner .close-sidebar {
+		top: auto;
+		bottom: auto;
+		position: relative;
+		padding: 5px;
+		background: var(--theme-black);
+		align-items: center;
+		justify-content: center;
+		color: #fff;
+		line-height: 1.3;
+		margin-top: 5px;
+		border-radius: 4px;
+		cursor: pointer;
+		margin-top: 10px;
+	}
+    .woocommerce #nt-sidebar .woocommerce-result-count span {
+        color: var(--theme-primary);
+    }
+    .shop-sidebar-fixed .blog-sidebar {
+        margin: 0;
+        overflow-y: scroll;
+        padding: 0px;
+    }
+    #nt-sidebar .nt-sidebar-inner-widget a.ajax-loading::after {
+        content: " ";
+        margin-left: 10px;
+        border-width: 2px;
+        border-color: var(--theme-black);
+        border-left-color: transparent;
+        border-radius: 50%;
+        border-style: solid;
+        -webkit-animation: v-spin-fast 1s linear infinite;
+        animation: v-spin-fast 1s linear infinite;
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        right: 7px;
+    }
+}
+@media(max-width:768px){
+    .shop-sidebar-fixed .blog-sidebar {
+        height: calc(100vh - 114px );
+        max-height: calc(100vh - 114px );
+    }
+}
